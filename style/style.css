@@ -4,14 +4,20 @@ body {
 
 }
 .main-but {
-    background-color: pink;
-    text-decoration: none;
+    background-color: rgb(245, 127, 146);
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
     
 }
 /* header related styles */
 
 .header {
     background-color: #f7edf3;
+    justify-content: space-between;
 }
 
 .banner {
