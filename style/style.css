@@ -1,0 +1,27 @@
+/* style related */
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+.main-but {
+    background-color: pink;
+    text-decoration: none;
+    
+}
+/* header related styles */
+
+.header {
+    background-color: #f7edf3;
+}
+
+.banner {
+    padding: 30px 30px 30px 50px;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+}
