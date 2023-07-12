@@ -23,18 +23,20 @@ body {
 .header {
     background-color: #f7edf3;
     justify-content: space-between;
+    margin-bottom: 0;
 }
 
 .banner {
     padding: 30px 30px 30px 50px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .image {
     width: 400px;
     height: 400px;
-    flex-shrink: 0;
+    margin-bottom: 0;
 }
 
 /* style of line 2 */
@@ -46,6 +48,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .flower {
@@ -105,12 +108,13 @@ body {
 
 .image-4 {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .header-2 {
-    width: 1000px;
-    height: 620px;
-    flex-shrink: 0;
+
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 
@@ -120,6 +124,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 180px;
+    margin-left: 200px;
 }
 
 .text {
@@ -128,4 +134,48 @@ body {
 
 .insta {
     text-align: center;
+}
+
+.main {
+    width: 1200px;
+    height: 1200px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.main-2 {
+    width: 1200px;
+    height: 1200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+#img-4 {
+    width: 250px;
+    height: 260px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#img-5 {
+    width: 250px;
+    height: 260px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#img-6 {
+    width: 250px;
+    height: 260px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#img-7 {
+    width: 250px;
+    height: 260px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
