@@ -66,7 +66,7 @@ body {
 
 #img-1 {
     width: 310px;
-    height: 428px;
+    height: 400px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -81,7 +81,7 @@ body {
 
 #img-3 {
     width: 314px;
-    height: 471px;
+    height: 400px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -178,4 +178,56 @@ body {
     height: 260px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.last {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 300px;
+    
+    background-repeat: no-repeat;
+    background-color: #FFF8F3;
+    background-image: url('../image/Rectangle\ 9.png');
+    background-position: center;
+}
+.hba {
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    padding: 5px 20px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Lato;
+    font-style: normal;
+    line-height: normal;
+
+}
+.hea {
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 20px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    border: 0;
+    width: 400px;
+
+}
+.hca {
+    color: #E55473;
+
+}
+.finish {
+    padding: 100px;
+    background-color: #111010;
+    color: #FFF;
+
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+    text-align: center;
 }
