@@ -3,16 +3,21 @@ body {
     font-family: 'Open Sans', sans-serif;
 
 }
+
 .main-but {
-    background-color: rgb(245, 127, 146);
-    border-radius: 5px;
+    border-radius: 8px;
+    background: #E55473;
     border: 0;
+    padding: 20px 43px;
+    color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    color: white;
-    padding: 15px 35px;
-    
+    font-family: Lato;
+    font-style: normal;
+    line-height: normal;
+
 }
+
 /* header related styles */
 
 .header {
@@ -30,4 +35,97 @@ body {
     width: 400px;
     height: 400px;
     flex-shrink: 0;
+}
+
+/* style of line 2 */
+.line-2 {
+    text-align: center;
+}
+
+.image-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flower {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-1 {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+#img-2 {
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+
+#img-3 {
+    width: 314px;
+    height: 471px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.wedding {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#wedding-1 {
+    width: 400px;
+    height: 400px;
+}
+
+.font-size {
+    font-size: 18px;
+    font-family: Lato;
+    color: rgba(39, 39, 39, 0.60);
+
+}
+
+
+
+.image-4 {
+    display: flex;
+}
+
+.header-2 {
+    width: 1000px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    text-align: center;
+}
+
+.insta {
+    text-align: center;
 }
